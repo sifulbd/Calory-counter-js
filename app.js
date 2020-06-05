@@ -112,7 +112,7 @@ const UICtrl = function() {
                     <a href="" class="secondary-content"><i class="edit-item fa fa-pencil"></i></a>
                 </li>
                 `;
-            });
+            }); 
 
             // insert list items
             document.querySelector(UISelectors.itemList).innerHTML = html;
